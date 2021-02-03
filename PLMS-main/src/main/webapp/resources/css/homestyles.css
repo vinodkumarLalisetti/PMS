@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+}
+
+
+
+.nav {
+	overflow: hidden;
+	background-color: #939596;
+}
+
+.nav a {
+	float: left;
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.nav a:hover {
+	background-color: #eeeeee;
+	color: black;
+}
+
+.nav a.active {
+	background-color: #0e002b;
+	color: #ffffff;
+}
+
+.
+@media screen and (max-width: 600px) {
+	.nav .login-container {
+		float: none;
+	}
+	.nav a, .topnav input[type=text], .nav .login-container button {
+		float: none;
+		display: block;
+		text-align: left;
+		width: 100%;
+		margin: 0;
+		padding: 14px;
+	}
+	.nav input[type=text] {
+		border: 1px solid #ccc;
+	}
+}
